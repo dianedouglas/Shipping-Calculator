@@ -4,8 +4,18 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
+/*  margin-top: 50px;
+  margin-bottom: 10px;*/
 }
 
 #cost-output {
   display: none;
+}
+
+.displayError {
+  display: none;
+}
+
+h4 {
+  text-align: center;
 }
