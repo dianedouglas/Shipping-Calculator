@@ -5,9 +5,36 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-  <title></title>
+  <title>Shipping Calculator!!</title>
 </head>
-<body>
 
+<body>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-6">
+        <h1>Calculate your shipping costs for FREE</h1>
+        <form>
+          <div class = "form-group">
+            <label for = "weight">Please enter the weight of the package:</label>
+            <input id = "weight" type = "number" class = "form-control">
+          </div>
+          <div class = "form-group">
+            <label for = "height">Please enter the height of the package:</label>
+            <input id = "height" type = "number" class = "form-control">
+          </div>
+          <div class = "form-group">
+            <label for = "width">Please enter the width of the package:</label>
+            <input id = "width" type = "number" class = "form-control">
+          </div>
+          <div class = "form-group">
+            <label for = "depth">Please enter the depth of the package:</label>
+            <input id = "depth" type = "number" class = "form-control">
+          </div>
+          <button type = "submit" class = "btn btn-success">Calculate!</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
